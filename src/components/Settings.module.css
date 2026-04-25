@@ -1,0 +1,100 @@
+.card {
+  background: #0d1a0d;
+  border: 1px solid #1a3d1a;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.title {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #22c55e;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fieldGrow {
+  flex: 1;
+  min-width: 200px;
+}
+
+.label {
+  font-size: 11px;
+  color: #4d7a52;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+.qtyWrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn {
+  width: 32px;
+  height: 32px;
+  background: #122012;
+  border: 1px solid #1a3d1a;
+  border-radius: 7px;
+  color: #c8e6c9;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.1s;
+  line-height: 1;
+}
+
+.btn:hover { background: #1a3d1a; }
+
+.numInput {
+  background: #060c06;
+  border: 1px solid #1a3d1a;
+  border-radius: 7px;
+  color: #c8e6c9;
+  font-size: 14px;
+  font-family: inherit;
+  padding: 6px 8px;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.15s;
+  height: 32px;
+}
+
+.numInput:focus { border-color: #22c55e; }
+
+.sellInput {
+  background: #060c06;
+  border: 1px solid #1a3d1a;
+  border-radius: 7px;
+  color: #c8e6c9;
+  font-size: 14px;
+  font-family: inherit;
+  padding: 7px 12px;
+  outline: none;
+  transition: border-color 0.15s;
+  width: 100%;
+  height: 32px;
+}
+
+.sellInput:focus { border-color: #22c55e; }
+.sellInput.hasVal { border-color: #166534; }
+.sellInput::placeholder { color: #2d5a2d; }
