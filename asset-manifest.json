@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dofus-craft/static/css/main.8cf8e195.css",
-    "main.js": "/dofus-craft/static/js/main.5279e1f3.js",
+    "main.css": "/dofus-craft/static/css/main.030e7a4e.css",
+    "main.js": "/dofus-craft/static/js/main.43970c75.js",
     "index.html": "/dofus-craft/index.html",
-    "main.8cf8e195.css.map": "/dofus-craft/static/css/main.8cf8e195.css.map",
-    "main.5279e1f3.js.map": "/dofus-craft/static/js/main.5279e1f3.js.map"
+    "main.030e7a4e.css.map": "/dofus-craft/static/css/main.030e7a4e.css.map",
+    "main.43970c75.js.map": "/dofus-craft/static/js/main.43970c75.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cf8e195.css",
-    "static/js/main.5279e1f3.js"
+    "static/css/main.030e7a4e.css",
+    "static/js/main.43970c75.js"
   ]
 }
